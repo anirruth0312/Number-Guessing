@@ -1,0 +1,41 @@
+.heading{
+    margin-top: 5px;
+    color: blanchedalmond;
+}
+
+.h3_tag{
+    background: black;
+    color: blanchedalmond;
+
+}
+
+#guess{
+    padding-top: 15px !important;
+}
+.inp_number{
+    margin-top: 15px;
+    background-color:yellowgreen;
+    border: 2px solid black;
+}
+body{
+    background: url("1.jpg");
+}
+.area{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    height:75vh;
+    color:yellowgreen;
+    background:url("2.jpg");
+    
+}
+.inp_number{
+    height: 200px;
+    font-size: 50px;
+}
+button{
+    margin-left: 15px !important;
+}
+#warning{
+    margin-top: 15px;
+}

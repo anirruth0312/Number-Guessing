@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Guessing game</title>
+        <h1 class="heading text-center"><u>Number Guessing game</u></h1>
+    </head>
+    <body>
+        <div class="text-center h3_tag">
+            <h3 style="margin-top:15px;">Try guessing a random number between 1 and 100. You have ten attempts to guess the right answer</h3>
+        </div>
+        <div class="area text-center">
+            <h1 id="guess"><u>Guess a number</u></h1>
+            <input type="text" id="inp" class="inp_number">
+            <div class="text-center result" style="margin-top: 60px;">
+                <div>
+                    <button class="btn btn-lg btn-danger" type="button" onclick="submit()">Submit</button>
+                    <button class="btn btn-lg btn-danger" type="button" onclick="clrscr(),window.location.reload();">Clear screen</button>
+                </div>
+                <h1 id="warning"></h1>
+                <h2 id="attempts"></h2>
+            </div>
+        </div>
+
+    </body>
+</html>
